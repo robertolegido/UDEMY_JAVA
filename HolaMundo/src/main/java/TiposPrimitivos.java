@@ -12,10 +12,10 @@ public class TiposPrimitivos {
 
         short shortVar = 1000;
         System.out.println(shortVar);
-        System.out.println("bits tipo por byte " + Short.SIZE);
-        System.out.println("bytes tipo por byte " + Short.BYTES);
-        System.out.println("Valor minimo por byte "+ Short.MIN_VALUE);
-        System.out.println("Valor minimo por byte "+ Short.MAX_VALUE);
+        System.out.println("bits tipo por short " + Short.SIZE);
+        System.out.println("bytes tipo por short " + Short.BYTES);
+        System.out.println("Valor minimo por short"+ Short.MIN_VALUE);
+        System.out.println("Valor minimo por short "+ Short.MAX_VALUE);
 
         short intVar = 5000;
         System.out.println(intVar);
@@ -23,6 +23,13 @@ public class TiposPrimitivos {
         System.out.println("bytes tipo por int " + Integer.BYTES);
         System.out.println("Valor minimo por int "+ Integer.MIN_VALUE);
         System.out.println("Valor minimo por int "+ Integer.MAX_VALUE);
+
+        float floatVar = 10340;
+        System.out.println(floatVar);
+        System.out.println("bits tipo por float " + Float.SIZE);
+        System.out.println("bytes tipo por float " + Float.BYTES);
+        System.out.println("Valor minimo por float "+ Float.MIN_VALUE);
+        System.out.println("Valor minimo por float "+ Float.MAX_VALUE);
 
         int longVar = 1034500;
         System.out.println(longVar);
@@ -58,5 +65,8 @@ public class TiposPrimitivos {
         /* Utilizacion de TIPOS FLOTANTES */
         float numeroFloat = (float) 19238.234;
         float numeroFloat2 = 23498.293487F;
+
+        var a = 0;
+        System.out.println("que tipo corresponde a es: " + a);
     }
 }

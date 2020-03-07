@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60536672-a918-4948-92c9-69f828ae63cf" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/TiposPrimitivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TiposPrimitivos.java" afterDir="false" />
+    <list default="true" id="60536672-a918-4948-92c9-69f828ae63cf" name="Default Changelist" comment="Actualizacion sobre TiposPrimitivos">
+      <change afterPath="$PROJECT_DIR$/src/main/java/TipoChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -69,11 +70,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/TiposPrimitivos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+            <state relative-caret-position="465">
+              <caret line="31" column="71" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TipoChar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
             </state>
           </provider>
         </entry>
@@ -112,6 +122,7 @@
         <option value="$PROJECT_DIR$/src/main/java/UsoDeScanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/EjericiosYTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/TiposPrimitivos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TipoChar.java" />
       </list>
     </option>
   </component>
@@ -268,14 +279,28 @@
       <option name="project" value="LOCAL" />
       <updated>1582967006654</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Actualizacion sobre TiposPrimitivos">
+      <created>1583603556564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1583603556564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Actualizacion sobre TiposPrimitivos">
+      <created>1583603649730</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583603649730</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.25965664" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.25965664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,13 +309,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50089765" side_tool="true" weight="0.4041488" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4985694" visible="true" weight="0.30361447" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.30361447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50143063" side_tool="true" weight="0.30361447" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50214595" side_tool="true" visible="true" weight="0.30361447" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49713877" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -316,7 +341,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Actualizado proyecto. &#10;Incluidas nuevas clases de escaner y caracteres especiales" />
     <MESSAGE value="Actualizado proyecto. &#10;Tipos primitivos y Ejercicio de test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizado proyecto. &#10;Tipos primitivos y Ejercicio de test" />
+    <MESSAGE value="Actualizacion sobre TiposPrimitivos" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion sobre TiposPrimitivos" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/classes/HolaMundo.class">
@@ -378,8 +404,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TiposPrimitivos.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+        <state relative-caret-position="465">
+          <caret line="31" column="71" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TipoChar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
         </state>
       </provider>
     </entry>

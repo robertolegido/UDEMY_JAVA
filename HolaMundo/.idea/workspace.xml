@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="60536672-a918-4948-92c9-69f828ae63cf" name="Default Changelist" comment="Actualizacion sobre TiposPrimitivos">
-      <change afterPath="$PROJECT_DIR$/src/main/java/TipoChar.java" afterDir="false" />
+    <list default="true" id="60536672-a918-4948-92c9-69f828ae63cf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ConversionTipos.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TiposBooleanos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TipoChar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TipoChar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TiposPrimitivos.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TiposPrimitivos.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -74,16 +77,34 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/TiposPrimitivos.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="465">
-              <caret line="31" column="71" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="71" />
+              <caret line="31" column="71" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TipoChar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/TiposBooleanos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="105" selection-start-line="21" selection-start-column="105" selection-end-line="21" selection-end-column="105" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TipoChar.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ConversionTipos.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+            <state relative-caret-position="60">
+              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -123,6 +144,8 @@
         <option value="$PROJECT_DIR$/src/main/java/EjericiosYTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/TiposPrimitivos.java" />
         <option value="$PROJECT_DIR$/src/main/java/TipoChar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TiposBooleanos.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ConversionTipos.java" />
       </list>
     </option>
   </component>
@@ -201,9 +224,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TiposPrimitivos">
-    <configuration name="CaracteresEspeciales" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CaracteresEspeciales" />
+  <component name="RunManager" selected="Application.ConversionTipos">
+    <configuration name="ConversionTipos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ConversionTipos" />
       <module name="HolaMundo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -216,8 +239,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HolaMundo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HolaMundo" />
+    <configuration name="TipoChar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TipoChar" />
+      <module name="HolaMundo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TiposBooleanos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TiposBooleanos" />
       <module name="HolaMundo" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -230,20 +260,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UsoDeScanner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UsoDeScanner" />
-      <module name="HolaMundo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConversionTipos" />
+        <item itemvalue="Application.TiposBooleanos" />
+        <item itemvalue="Application.TipoChar" />
         <item itemvalue="Application.TiposPrimitivos" />
         <item itemvalue="Application.EjericiosYTest" />
-        <item itemvalue="Application.CaracteresEspeciales" />
-        <item itemvalue="Application.UsoDeScanner" />
-        <item itemvalue="Application.HolaMundo" />
       </list>
     </recent_temporary>
   </component>
@@ -293,14 +316,28 @@
       <option name="project" value="LOCAL" />
       <updated>1583603649730</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Añadida clase TipoChar">
+      <created>1583603940023</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583603940023</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Añadida clase TipoChar">
+      <created>1583604148073</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1583604148073</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.25965664" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49910232" visible="true" weight="0.25965664" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -309,13 +346,13 @@
       <window_info id="Favorites" order="6" sideWeight="0.50089765" side_tool="true" weight="0.4041488" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.30361447" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49785408" visible="true" weight="0.30361447" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4985694" weight="0.32891566" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50214595" side_tool="true" visible="true" weight="0.30361447" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50214595" side_tool="true" weight="0.30361447" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49713877" weight="0.32891566" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -342,7 +379,8 @@
     <MESSAGE value="Actualizado proyecto. &#10;Incluidas nuevas clases de escaner y caracteres especiales" />
     <MESSAGE value="Actualizado proyecto. &#10;Tipos primitivos y Ejercicio de test" />
     <MESSAGE value="Actualizacion sobre TiposPrimitivos" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion sobre TiposPrimitivos" />
+    <MESSAGE value="Añadida clase TipoChar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadida clase TipoChar" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/target/classes/HolaMundo.class">
@@ -388,13 +426,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/UsoDeScanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EjericiosYTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -405,14 +436,35 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/TiposPrimitivos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="71" lean-forward="true" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="71" />
+          <caret line="31" column="71" selection-start-line="26" selection-start-column="8" selection-end-line="31" selection-end-column="71" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TipoChar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="71" selection-start-line="7" selection-start-column="71" selection-end-line="7" selection-end-column="71" />
+        <state relative-caret-position="210">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/UsoDeScanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="38" selection-start-line="11" selection-start-column="38" selection-end-line="11" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/TiposBooleanos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="105" selection-start-line="21" selection-start-column="105" selection-end-line="21" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ConversionTipos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
         </state>
       </provider>
     </entry>

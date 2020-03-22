@@ -13,8 +13,18 @@ public class ConversionTipos {
 
 
         // De entero a string
-        String edadTexto = String.valueOf(edad);
+        String edadTexto = String.valueOf(edad); // el parametro puede ser cualquier primitivo
         System.out.println("El valor de la edad en tipo string es: " + edadTexto);
 
+        // Conversion entre tipos cast
+        short s = 10; // 16 bits
+        // byte b = s; // no se puede realizar esta conversión por tamaño (8 bits)
+        byte b = (byte) s;
+        // OJOOOOO QUE PUEDE CAUSAR PERDIDA DE VALOR... el byte solo llega hasta 127
+        System.out.println("casting de short a byte valido: " + b);
+        // SI QUIERES PONER 128 EL COMPILADOR NOS TRUNCARÁ
+        s = 129;
+        b = (byte) s;
+        System.out.println("casting de short a byte valido " + b);
     }
 }
